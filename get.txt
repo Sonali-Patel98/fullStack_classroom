@@ -1,0 +1,5 @@
+In Node.js, "get" primarily refers to two distinct concepts: the GET HTTP method for retrieving data from a server, and the JavaScript get keyword (getter) for accessing object properties. 
+1. app.get() in Express.js (HTTP Routing) 
+The most common use of "get" in the context of Node.js web development is with the Express.js framework's app.get() method. This method is used to define a route handler that specifically listens for incoming HTTP GET requests. 
+Purpose: GET requests are the standard way for a client (like a web browser) to request data or a resource from the server. They are used for operations that are "read-only" and do not modify data on the server, such as fetching a webpage, retrieving a list of products, or performing a search.
+Syntax: app.get(path, callback) where path is the URL route (e.g., /users) and callback is a function that executes when a request is made to that path. This function takes request (req) and response (res) objects as arguments.
